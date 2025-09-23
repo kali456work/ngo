@@ -1,0 +1,20 @@
+/* css/colors.css */
+:root {
+  /* Base */
+  --white:#ffffff;
+  --of-white: #f9fef0;
+  --black: #000100;
+  --main: #7a9a4c;
+  --text: #d5f7a2;
+
+  /* Primary Palette (replace with your NGO’s colors) */
+  --primary: #0b6e4f;
+  --primary-dark: #095c42;
+  --accent: #ffd166;
+  --accent-dark: #e6b84b;
+
+  /* Semantic */
+  --success: #28a745;
+  --warning: #ff9800;
+  --danger: #e63946;
+}
