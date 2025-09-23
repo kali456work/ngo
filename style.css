@@ -140,7 +140,7 @@ body {
   margin: 40px 0;
 } */
 .slider {
-  width: 99vw;
+  width: calc(99vw-20px);
   margin: 25px auto;
   height: calc(99vw - 200px);
   max-height: 700px;
@@ -312,7 +312,8 @@ body {
   background-position: center;
   background-attachment: fixed;
   & .section-title {
-    color: var(--white);
+    color: var(--text);
+    text-shadow: 2px 2px 6px var(--foot);
     font-size: var(--font-xxl);
   }
 }
