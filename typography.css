@@ -1,7 +1,7 @@
 /* typography.css */
 :root {
-  --font-base: clamp(16px, 1.6vw, 18px); /* body */
   --font-sm: clamp(14px, 1.2vw, 16px); /* small */
+  --font-base: clamp(16px, 1.6vw, 18px); /* body */
   --font-lg: clamp(18px, 2vw, 20px); /* large body */
   --font-xl: clamp(24px, 3vw, 32px); /* h2 */
   --font-xxl: clamp(32px, 4vw, 48px); /* h1 */
@@ -13,3 +13,4 @@
   font-weight: normal;
   font-style: normal;
 }
+ 

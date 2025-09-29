@@ -1,0 +1,62 @@
+{
+    "works": [
+        {
+            "title": "Environment Protection & Sustainable Development",
+            "points": [
+                "Afforestation and barren land restoration",
+                "Rainwater harvesting and rejuvenation of water sources",
+                "Plastic-free campaigns and solid waste management",
+                "Biodiversity conservation and environmental awareness"
+            ]
+        }, 
+        {
+            "title": "Forest & Wildlife Conservation",
+            "points": [
+                "Wildlife protection and rehabilitation",
+                "Awareness programs in sensitive forest zones",
+                "Promotion of forest-based organic and herbal products"
+            ]
+        },
+        {
+            "title": "Education, Training & Research",
+            "points": [
+                "Educational support for children in need",
+                "Digital literacy, libraries, and career guidance",
+                "Establishing research and skill development centers"
+            ]
+        },
+        {
+            "title": "Health Services & Medical Assistance",
+            "points": [
+                "Organizing health check-ups (cancer, diabetes, thyroid, kidney, liver)",
+                "Ambulance and emergency support services",
+                "Mental health awareness, de-addiction and rehabilitation programs",
+                "Maternal and child healthcare initiatives"
+            ]
+        },
+        {
+            "title": "Women & Child Development",
+            "points": [
+                "Women empowerment and self-defense training",
+                "Adolescent health programs and counseling centers",
+                "Shelter and rehabilitation for vulnerable women & children"
+            ]
+        },
+        {
+            "title": "Support to Armed Forces, Police & Youth Welfare",
+            "points": [
+                "Assistance to families of soldiers and police personnel",
+                "Education and healthcare support for dependents",
+                "Youth leadership programs, self-defense, sports, and stress management camps"
+            ]
+        },
+        {
+            "title": "Tribal, Rural & Urban Development",
+            "points": [
+                "Tribal welfare programs and livelihood promotion",
+                "Reviving traditional and cultural occupations",
+                "Skill-building and self-employment training for rural youth and women"
+            ]
+        }
+    ]
+}

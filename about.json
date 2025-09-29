@@ -1,0 +1,59 @@
+{
+    "bearers": [
+        {
+            "name": "Mr. Ankit Soni",
+            "position": "President",
+            "bio": "A Mining Engineering graduate and Postgraduate Diploma holder in Remote Sensing & GIS,<span class='more' style='display: none;'> Mr. Soni has conducted research on soil erosion using the RUSLE model in Surguja district, Chhattisgarh. He also leads an essential oils production unit and has dedicated his knowledge of environment and agriculture to transform barren lands into sustainable ecosystems. "
+        },
+        {
+            "name": "Mr. Sanjay Kumar Soni",
+            "position": "Vice President",
+            "bio": "A dedicated social worker with extensive field experience in Bastar district,<span class='more' style='display: none;'> he has worked across multiple sectors and understands the unique lifestyle, culture, and challenges of tribal communities. His grassroots knowledge strengthens the Foundation’s outreach and impact."
+        },
+        {
+            "name": "Ms. Anukranti Rajwade",
+            "position": "Secretary",
+            "bio": "A graduate with strong organizational and leadership skills,<span class='more' style='display: none;'> she manages documentation, compliance, and ensures smooth coordination with government departments and partner organizations."
+        },
+        {
+            "name": "Mr. Poshan Lal Padoti",
+            "position": "Vice Secretary",
+            "bio": "A Hotel Management graduate with expertise in digital marketing and entrepreneurship.<span class='more' style='display: none;'> He has successfully launched startups, including Basil, an Italian cuisine restaurant in Chhattisgarh. His entrepreneurial skills bring innovation and management capacity to the Foundation."
+        },
+        {
+            "name": "Mr. Tushar Soni",
+            "position": "Treasurer",
+            "bio": "He is actively involved in aromatic plant cultivation and agro-based projects.<span class='more' style='display: none;'> He ensures financial transparency while also contributing technical expertise in agriculture and IT."
+        }
+    ],
+    "focus_on": [
+        {
+            "title": "Environment & Forest",
+            "description": "Protect forests and wildlife, promote biodiversity, rejuvenate water sources, rainwater harvesting, plastic-free zones, and environmental education."
+        },
+        {
+            "title": "Agriculture & Livelihood",
+            "description": "Promote organic, herbal, aromatic, and horticulture farming, train farmers, form FPOs, encourage vermicompost and natural farming, empower women and tribal farmers."
+        },
+        {
+            "title": "Health & Wellness",
+            "description": "Organize health camps for cancer, diabetes, thyroid, kidney, liver; ambulance and air-ambulance services; maternal & child health, nutrition awareness, mental health, and de-addiction programs."
+        },
+        {
+            "title": "Education & Research",
+            "description": "Provide educational support, digital education, libraries, career guidance, establish research and skill development centers."
+        },
+        {
+            "title": "Women, Children & Senior Citizens",
+            "description": "Women’s self-defense training, adolescent health, counseling, rehabilitation of differently-abled women, old-age support centers, women empowerment programs."
+        },
+        {
+            "title": "Tribal Development",
+            "description": "Provide education, livelihood support, redevelopment in SC/ST areas, form women groups, and promote green area creation in tribal regions."
+        },
+        {
+            "title": "Armed Forces, Police & Youth Welfare",
+            "description": "Support families of forces with health, education, and welfare services; organize yoga, self-defense, and sports training for youth; stress management and nation-building camps."
+        }
+    ]
+}

@@ -1,16 +1,21 @@
 /* css/colors.css */
 :root {
   /* Base */
+  --head: #264653;
   --white: #ffffff;
-  --of-white: #f9fef0;
-  --black: #000100;
-  --main: #a19522;
+  --of-white: #eff8fc;
+  --main: #e9c46a;
   --text: #d3c333;
-  --foot: #333;
+  --black: #333;
+  --foot: #2c5282;
+  --mirror: #a19422cc;
+  --main-2: #f4a261;
+  --ico: #6c63ff;
+
   /* Primary Palette (replace with your NGO’s colors) */
   --primary: #0b6e4f;
   --primary-dark: #095c42;
-  --accent: #ffd166;
+  --accent: #ffee00;
   --accent-dark: #e6b84b;
 
   /* Semantic */

@@ -5,18 +5,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ketma welfare foundation</title>
-  <!-- Bootstrap CSS -->
-
+  <!-- tailwind css -->
+  <!-- <link href="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css" rel="stylesheet"> -->
 
   <link rel="stylesheet" href="colors.css" />
   <link rel="stylesheet" href="typography.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="main.css" />
 
   <!-- jQuery CDN -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <!-- GSAP (TweenMax) for animations -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-</head>
 </head>
 
 <body>
@@ -25,35 +25,24 @@
         class="bi bi-arrow-up" viewBox="0 0 16 16">
         <path fill-rule="evenodd"
           d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
-      </svg></a></div>
-  <header>
+      </svg></a>
+  </div>
+  <header id="navbar">
     <!-- donation area -->
-    <div class="donate">
-      <div class="org-name"><b>ketma welfare foundation</b></div>
-      <ul>
-        <li><a href="http://">registered from where</a></li>
-        <li>
-          <a>oil</a>
-        </li>
-        <li>
-          <button class="donate-btn">donate</button>
-        </li>
-      </ul>
-    </div>
-
-    <nav class="navbar" id="navbar">
-      <div class="ngo-branding"><img src="./src/logo/tr_logo.png" alt=""></div>
+    <nav class="navbar">
+      <div class="ngo-branding"><img src="./src/logo/tr_logo.png" alt="">
+        <h1>ketma welfare foundation</h1>
+      </div>
       <div class="otr-components">
         <!-- navbar components -->
-        <ul>
-          <li><a href="#" id="active">home</a></li>
-          <li><a href="http://">about us</a></li>
-          <li><a href="http://">over activities</a></li>
-          <li><a href="http://">facilities</a></li>
-          <li><a href="http://">get involved</a></li>
-          <li><a href="http://">resource</a></li>
-          <li><a href="http://">contact us</a></li>
+        <ul id="navbar-element">
+          <li><a href="index.html" id="active">home</a></li>
+          <li><a href="about.html">about us</a></li>
+          <li><a href="activity.html">over activities</a></li>
+          <li><a href="involved.html">get involved</a></li>
+          <li><a href="contact.html">contact us</a></li>
         </ul>
+        <button class="donate-btn">donate</button>
       </div>
     </nav>
   </header>
@@ -63,11 +52,36 @@
       <div class="slider">
         <!-- slide -->
         <ul>
-          <li class="active"></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="active">
+            <div class="img-content">
+              <h1>hello</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius tempora harum deserunt.</p>
+            </div>
+          </li>
+          <li>
+            <div class="img-content">
+              <h1>hello</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius tempora harum deserunt.</p>
+            </div>
+          </li>
+          <li>
+            <div class="img-content">
+              <h1>hello</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius tempora harum deserunt.</p>
+            </div>
+          </li>
+          <li>
+            <div class="img-content">
+              <h1>hello</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius tempora harum deserunt.</p>
+            </div>
+          </li>
+          <li>
+            <div class="img-content">
+              <h1>hello</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius tempora harum deserunt.</p>
+            </div>
+          </li>
         </ul>
         <ol>
           <!-- point -->
@@ -88,78 +102,73 @@
     <section class="content-area">
       <aside>
         <h1 class="section-title fade-in">Our Activities</h1>
-        <div class="section-para fade-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aliquid omnis molestias
-          magni
-          similique nostrum laudantium maiores assumenda provident perspiciatis quas, iste quisquam corrupti est
-          reiciendis suscipit alias atque in distinctio commodi facere praesentium impedit illo. A modi error aliquid
-          quidem. Vero, hic, eius magni ullam dolorum commodi inventore culpa, maxime deleniti quos nostrum impedit
-          exercitationem aspernatur. Accusantium quam eum magnam necessitatibus, odio quisquam omnis animi incidunt nemo
-          officia saepe inventore culpa quae similique iste dolorum mollitia. Modi excepturi explicabo deserunt vel qui
-          cumque a quibusdam.</div>
+        <div class="section-para fade-in">
+          <p>At Ketma Welfare Foundation, we are dedicated to building a sustainable,
+            inclusive, and empowered society. Our
+            organization, originally registered in 2012 and revived actively in 2022, has expanded its scope of work to
+            cover a wide
+            range of development areas.</p>
         </div>
-        <h2 class="section-title-h2 fade-in">what work we do till now</h2>
-        <div class="section-para fade-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aliquid omnis molestias
-          magni
-          similique nostrum laudantium maiores assumenda provident perspiciatis quas, iste quisquam corrupti est
-          reiciendis suscipit alias atque in distinctio commodi facere praesentium impedit illo. A modi error aliquid
-          quidem. Vero, hic, eius magni ullam dolorum commodi inventore culpa, maxime deleniti quos nostrum impedit
-          exercitationem aspernatur. Accusantium quam eum magnam necessitatibus, odio quisquam omnis animi incidunt nemo
-          officia saepe inventore culpa quae similique iste dolorum mollitia. Modi excepturi explicabo deserunt vel qui
-          cumque a quibusdam.</div>
-        <h2 class="section-title-h2 fade-in">what work we do till now</h2>
-        <div class="section-para fade-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aliquid omnis molestias
-          magni
-          similique nostrum laudantium maiores assumenda provident perspiciatis quas, iste quisquam corrupti est
-          reiciendis suscipit alias atque in distinctio commodi facere praesentium impedit illo. A modi error aliquid
-          quidem. Vero, hic, eius magni ullam dolorum commodi inventore culpa, maxime deleniti quos nostrum impedit
-          exercitationem aspernatur. Accusantium quam eum magnam necessitatibus, odio quisquam omnis animi incidunt nemo
-          officia saepe inventore culpa quae similique iste dolorum mollitia. Modi excepturi explicabo deserunt vel qui
-          cumque a quibusdam.</div>
-        <h2 class="section-title-h2">what work we do till now</h2>
-        <div class="section-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aliquid omnis molestias
-          magni
-          similique nostrum laudantium maiores assumenda provident perspiciatis quas, iste quisquam corrupti est
-          reiciendis suscipit alias atque in distinctio commodi facere praesentium impedit illo. A modi error aliquid
-          quidem. Vero, hic, eius magni ullam dolorum commodi inventore culpa, maxime deleniti quos nostrum impedit
-          exercitationem aspernatur. Accusantium quam eum magnam necessitatibus, odio quisquam omnis animi incidunt nemo
-          officia saepe inventore culpa quae similique iste dolorum mollitia. Modi excepturi explicabo deserunt vel qui
-          cumque a quibusdam.</div>
-        <h2 class="section-title-h2">what work we do till now</h2>
-        <div class="section-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aliquid omnis molestias
-          magni
-          similique nostrum laudantium maiores assumenda provident perspiciatis quas, iste quisquam corrupti est
-          reiciendis suscipit alias atque in distinctio commodi facere praesentium impedit illo. A modi error aliquid
-          quidem. Vero, hic, eius magni ullam dolorum commodi inventore culpa, maxime deleniti quos nostrum impedit
-          exercitationem aspernatur. Accusantium quam eum magnam necessitatibus, odio quisquam omnis animi incidunt nemo
-          officia saepe inventore culpa quae similique iste dolorum mollitia. Modi excepturi explicabo deserunt vel qui
-          cumque a quibusdam.</div>
+        <div class="hr">
+          <hr>
+        </div>
+        <h2 class="fade-in">Key Areas of Work</h2>
+        <div class="focus-context-st">
+          <div id="focus-areas" class="fade-in">
+            <!-- content added from js  -->
+          </div>
         </div>
       </aside>
     </section>
+
     <section class="growth">
-      <h1 class="section-title">Our Growth</h1>
+      <h1 class="section-title fade-in">Government Partnership</h1>
       <div class="growth-container">
-        <div class="growth-box">
-          <h2 class="growth-number">150+</h2>
-          <p class="growth-para">Volunteers</p>
+        <div class="growth-box fade-in">
+          <h2 class="growth-number">Policy Reach & Legitimacy</h2>
+          <p class="growth-para"> Working with government gives access to schemes and grants that can scale our work.
+          </p>
         </div>
-        <div class="growth-box">
-          <h2 class="growth-number">500+</h2>
-          <p class="growth-para">Children Educated</p>
+        <div class="growth-box fade-in">
+          <h2 class="growth-number">Integrated Impact</h2>
+          <p class="growth-para">Government programs offer resources and infrastructure that NGOs not have together we
+            can fill gaps and avoid duplication.</p>
         </div>
-        <div class="growth-box">
-          <h2 class="growth-number">200+</h2>
-          <p class="growth-para">Projects Completed</p>
+        <div class="growth-box fade-in">
+          <h2 class="growth-number">Better Accountability</h2>
+          <p class="growth-para">Collaboration ensures checks & balances, auditing, and community trust.</p>
+        </div>
+        <div class="growth-box fade-in">
+          <h2 class="growth-number">Sustainability & Continuity</h2>
+          <p class="growth-para"> Government partnerships help ensure that projects continue beyond one-off grants.</p>
         </div>
       </div>
     </section>
     <section class="authorized">
       <div class="authorized-container">
-        <div><img src="./src/logo/auth1.jpg" alt=""></div>
-        <div><img src="./src/logo/auth2.jpg" alt=""></div>
-        <div><img src="./src/logo/auth3.jpg" alt=""></div>
-        <div><img src="./src/logo/auth4.jpg" alt=""></div>
-        <div><img src="./src/logo/auth5.jpg" alt=""></div>
+        <article class="Partners-comps fade-in">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+            class="w-10 h-10 text-gray-300 bg-gray-600 rounded-full p-1">
+            <path
+              d="m8.032 12 1.984 1.984 4.96-4.96m4.55 5.272.893-.893a1.984 1.984 0 0 0 0-2.806l-.893-.893a1.984 1.984 0 0 1-.581-1.403V7.04a1.984 1.984 0 0 0-1.984-1.984h-1.262a1.983 1.983 0 0 1-1.403-.581l-.893-.893a1.984 1.984 0 0 0-2.806 0l-.893.893a1.984 1.984 0 0 1-1.403.581H7.04A1.984 1.984 0 0 0 5.055 7.04v1.262c0 .527-.209 1.031-.581 1.403l-.893.893a1.984 1.984 0 0 0 0 2.806l.893.893c.372.372.581.876.581 1.403v1.262a1.984 1.984 0 0 0 1.984 1.984h1.262c.527 0 1.031.209 1.403.581l.893.893a1.984 1.984 0 0 0 2.806 0l.893-.893a1.985 1.985 0 0 1 1.403-.581h1.262a1.984 1.984 0 0 0 1.984-1.984V15.7c0-.527.209-1.031.581-1.403Z"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor"></path>
+          </svg>
+          <p class="w-full text-gray-400">
+            Mahamaya agro business partnered in organic farming & market linkage training for women farmers.
+          </p>
+        </article>
+        <article class="Partners-comps fade-in" style="transition-delay: 0.1s;">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+            class="w-10 h-10 text-gray-300 bg-gray-600 rounded-full p-1">
+            <path
+              d="m8.032 12 1.984 1.984 4.96-4.96m4.55 5.272.893-.893a1.984 1.984 0 0 0 0-2.806l-.893-.893a1.984 1.984 0 0 1-.581-1.403V7.04a1.984 1.984 0 0 0-1.984-1.984h-1.262a1.983 1.983 0 0 1-1.403-.581l-.893-.893a1.984 1.984 0 0 0-2.806 0l-.893.893a1.984 1.984 0 0 1-1.403.581H7.04A1.984 1.984 0 0 0 5.055 7.04v1.262c0 .527-.209 1.031-.581 1.403l-.893.893a1.984 1.984 0 0 0 0 2.806l.893.893c.372.372.581.876.581 1.403v1.262a1.984 1.984 0 0 0 1.984 1.984h1.262c.527 0 1.031.209 1.403.581l.893.893a1.984 1.984 0 0 0 2.806 0l.893-.893a1.985 1.985 0 0 1 1.403-.581h1.262a1.984 1.984 0 0 0 1.984-1.984V15.7c0-.527.209-1.031.581-1.403Z"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor"></path>
+          </svg>
+          <p class=" w-full text-gray-400">
+            MAA MAHAMAYA HERBAL helped fund in aromatic plantation and oil distillation unit in remote tribal villages.
+          </p>
+        </article>
+
       </div>
     </section>
   </main>
@@ -174,13 +183,11 @@
           <!-- address -->
           <div class="address">
             <h3>Address</h3>
-            <p>ketma welfare foundation,<br>
-              123 Street Name,<br>
-              City,<br>
-              State,<br>
-              Country</p>
-            <p>Email: info@ketmafoundation.org</p>
-            <p>Phone: +123 456 7890</p>
+            <p>patpariya manendragarh road<br>Ambikapur <br> Surguja <br>
+              Chhattisgarh <br>india <br>
+              497001</p>
+            <p>Email: support@ketmawelfarefoundation.org</p>
+            <p>Phone: +91-9826948770</p>
             <div class="timing">
               <h4>Timings</h4>
               <p>Tues - Sat : 9:30 am - 5:30 pm </p>
@@ -227,7 +234,7 @@
         </ul>
       </div>
       <div class="hr">
-        <hr>
+        <hr style="background-color: var(--white); width:50vw;">
       </div>
       <div class="copyright">
         <p>&copy; 2024 ketma welfare foundation. All rights reserved.</p>
@@ -238,5 +245,7 @@
 </body>
 <script src="script.js"></script>
 <script src="functions.js"></script>
+<script>    document.addEventListener("DOMContentLoaded", works); scrollAuto();
+</script>
 
 </html>
